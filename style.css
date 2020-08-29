@@ -1,0 +1,94 @@
+.coolTitle {
+  text-align: center;
+  font-family: 'Oswald', Helvetica, sans-serif;
+  font-size: 40px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: tomato;
+  text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick,
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -30px 20px 40px dimgrey;
+}
+
+body {
+  font-size: 1.5rem;
+  margin: 0 auto;
+  font-family: Arial;
+  background-color: #aa72ff;
+  color: white;
+}
+
+h1 {
+  font-size: 3.6rem;
+  margin-left: 20px;
+  color: white;
+
+}
+
+.upper-container {
+  display: flex;
+  background-color: #262254;
+}
+
+#userinput {
+  margin: 20px 25px;
+  margin-right: 0px;
+  padding: 8px 15px;
+  background-color: #262254;
+  color: white;
+}
+
+::placeholder {
+  color: rgb(117, 133, 138);
+}
+
+.text {
+  color: white;
+}
+
+#enter {
+  padding: 8px 15px;
+  margin-left: 0px;
+  background-color: #262254;
+  color: white;
+}
+
+#enter:hover {
+  cursor: pointer;
+}
+
+ul {
+  margin-left: 8px;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.adjustline {
+  line-height: 1.8;
+}
+
+.deletebtn {
+  padding: 4px 10px;
+  font-size: 13px;
+  margin-left: 60px;
+  text-decoration: none;
+  background-color: #aa72ff;
+  color: white;
+  border: 1px solid black;
+  transition: all 300ms;
+}
+
+.deletebtn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
